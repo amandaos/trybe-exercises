@@ -4,21 +4,53 @@
     <meta charset="UTF-8">
     <title>HTML</title>
     <style>
+        body{
+            font-size: 16px;
+        }
         h1 {
             font-size: 65px;
             color: orange;
+            font-family: sans-serif;
+        }
+        p {
+            font-weight: 600;
+            font-size: 3em;
         }
         .corFundo {
             background-color: blue;
         }
-
+        .primeiraCor {
+            background-color: yellow;
+            font-style: italic;
+            line-height: 30px;
+            color: white;
+            text-align: center;
+            font-weight: 600;
+            text-decoration: turquoise;
+        }
+        .segundaCor {
+            background-color: red;
+            font-style: italic;
+            line-height: 30px;
+            color: white;
+            text-align: center;
+            font-weight: 600;
+        }
+        .terceiraCor{
+            background-color: brown;
+            font-style: italic;
+            line-height: 30px;
+            color: white;
+            text-align: center;
+            font-weight: 600;
+        }
     </style>
   </head>
   <body>
     <h1>Exercícios 3.2</h1>
     <p class="corFundo">Qual é a sua cor favorita?</p>
-    <ul class="corFundo">
-      <li>Amarelo</li>
-      <li>Vermelho</li>
-      <li>Marrom</li>
+    <ul>
+      <li class="primeiraCor">Amarelo</li>
+      <li class="segundaCor">Vermelho</li>
+      <li class="terceiraCor">Marrom</li>
     </ul>
