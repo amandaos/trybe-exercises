@@ -1,0 +1,46 @@
+body{
+    font-size: 16px;
+}
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+}
+p {
+    font-weight: 600;
+    font-size: 3em;
+}
+.corFundo {
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+    line-height: 80px;
+    text-align: center;
+}
+.primeiraCor {
+    background-color: yellow;
+    font-size: 2em;
+    font-style: italic;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.segundaCor {
+    background-color: red;
+    font-size: 2em;
+    font-style: italic;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.terceiraCor{
+    background-color: brown;
+    font-size: 2em;
+    font-style: italic;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
