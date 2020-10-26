@@ -1,11 +1,14 @@
-let a = 75;
-let b = 332;
-let c = 64;
+const a = 75;
+const b = 332;
+const c = 64;
+let maiorNumero = 0;
 
 if (a > b && a > c){
-    console.log(a + " É o maior número entre os três");
+    maiorNumero = a;
 } else if (b > a && b > c) {
-    console.log(b + " É o maior número entre os três");
+    maiorNumero = b;
 } else {
-    console.log(c + " É o maior número entre os três");
+    maiorNumero = c;
 }
+
+console.log(maiorNumero + " É o maior número entre os três");
