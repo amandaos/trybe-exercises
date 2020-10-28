@@ -1,0 +1,144 @@
+body{
+    background-color: #75B3E7;
+}
+
+.cabecalho {
+    font-size: 25px;
+    text-align: center;
+    color: #5D21D0;
+}
+
+.navegacao-cabecalho ul{
+    padding: 5px;
+    margin: 5px;
+    list-style-type: none;
+    background-color: #0485D1;
+    text-align: center;
+}
+
+.navegacao-cabecalho li{
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+}
+
+.artigo h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #5D21D0;
+}
+
+.artigo {
+    text-align: center;
+    color: #040348;
+}
+
+.informacoes-tecnicas h3 {
+    color: #040348;
+    font-size: 25px;
+}
+
+.informacoes-tecnicas p {
+    color: #040348;
+    font-size: 20px;
+}
+.tabela,
+ td {
+    border: 1px solid black;
+    background-color:wheat;
+    padding: 3px;
+    text-align: center;
+    margin-left : 35%;
+
+ }
+th {
+    border: 1px solid black;
+    background-color:#B9CC81;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.descricao h3{
+    font-size: 30px;
+    color: #5D21D0;
+    
+}
+
+.descricao p {
+    font-size: 25px;
+    color: #040348;
+    width: 80%;
+    padding-left: 10%;
+}
+
+.fato-1 h3 {
+    font-size: 30px;
+    color: #5D21D0;
+}
+
+.fato-1 p {
+    font-size: 25px;
+    color: #040348;
+    width: 80%;
+    padding-left: 10%;
+}
+
+.img2 {
+    width: 40%;
+}
+
+.fato-2 h3 {
+    font-size: 30px;
+    color: #5D21D0;
+}
+
+
+.fato-2 p {
+    font-size: 25px;
+    color: #040348;
+    width: 80%;
+    padding-left: 10%;
+}
+
+.img3 {
+    width: 40%;
+}
+
+.referencias {
+    font-size: 25px;
+    text-align: center;
+    color: #5D21D0;
+
+}
+
+.referencias ul{
+    padding: 5px;
+    margin: 5px;
+    list-style: none;
+    background-color: #0485D1;
+    text-align: center;
+}
+.referencias li{
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+}
+
+.barra {
+    width: 20%;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.navegacao-barra{
+    font-size: 30px;
+}
+
+.rodape {
+    font-size: 25px;
+    text-align: center;
+    color: #5D21D0;
+}
