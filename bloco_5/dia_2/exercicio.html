@@ -72,6 +72,19 @@
       let paragrafo = document.createElement('p');
       paragrafo.innerHTML = 'Algum texto';
       divCenter.appendChild(paragrafo);
+
+      let divLeft = document.createElement('div');
+      divLeft.className = 'left-content';
+      divMain.appendChild(divLeft);
+
+      let divRight = document.createElement('div');
+      divLeft.className = 'right-content';
+      divMain.appendChild(divRight);
+
+      let imagem = document.createElement('img');
+      imagem.className = 'small-image';
+      imagem.src = 'https://picsum.photos/200';
+      divLeft.appendChild(imagem);
       
 
     </script>
