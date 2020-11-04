@@ -57,9 +57,23 @@
   </head>
   <body>
     <script>
-      let elementoH1 = document.createElement('h1')
+      let elementoH1 = document.createElement('h1');
       elementoH1 = 'Exercício 5.2 - JavaScript DOM';
       document.body.appendChild(elementoH1);
+
+      let divMain = document.createElement('div');
+      divMain.className = 'main-content';
+      document.body.appendChild(divMain);
+
+      let divCenter = document.createElement('div');
+      divCenter.className = 'center-content';
+      divMain.appendChild(divCenter);
+
+      let paragrafo = document.createElement('p');
+      paragrafo.innerHTML = 'Algum texto';
+      divCenter.appendChild(paragrafo);
+      
+
     </script>
   </body>
 </html>
