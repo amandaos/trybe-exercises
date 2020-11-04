@@ -58,7 +58,7 @@
   <body>
     <script>
       let elementoH1 = document.createElement('h1');
-      elementoH1 = 'Exercício 5.2 - JavaScript DOM';
+      elementoH1.innerHTML = 'Exercício 5.2 - JavaScript DOM';
       document.body.appendChild(elementoH1);
 
       let divMain = document.createElement('div');
@@ -85,7 +85,24 @@
       imagem.className = 'small-image';
       imagem.src = 'https://picsum.photos/200';
       divLeft.appendChild(imagem);
+
+      let listaNaoOrdenada = document.createElement('ul');
+      divRight.appendChild(listaNaoOrdenada);
+      let arrayNumeros = ['Um', 'Dois', 'Tres', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez'];
+      for (let index in arrayNumeros) {
+        let li = document.createElement('li');
+        li.innerHTML = arrayNumeros[index];
+        listaNaoOrdenada.appendChild(li);
+      }
       
+
+      for (let index = 1; index <= 3; index++) {
+      let elementoH3 = document.createElement('h3');
+      elementoH3.innerHTML = 'Show ' + index;
+      elementDivMain.appendChild(elementoH3);
+      }
+
+
 
     </script>
   </body>
